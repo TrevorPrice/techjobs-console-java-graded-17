@@ -105,9 +105,6 @@ public class JobData {
                 if (aValue.contains(value)) {
                     jobs.add(row);
                 }
-//                if(column.getValue().contains(value)) {
-//                    jobs.add(row);
-//                }
             }
         }
         return jobs;
